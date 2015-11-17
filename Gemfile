@@ -6,6 +6,7 @@ gem 'rails'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
+gem 'sass'
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
@@ -72,3 +73,34 @@ gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-0-stable'
 gem 'spree_related_products', github: 'spree-contrib/spree_related_products', branch: '3-0-stable'
 
 gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '3-0-stable'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gem 'stylus'
+gem 'stylus-nib', github: 'railsjedi/ruby-stylus-nib'
+gem 'haml-rails'
+gem 'normalize-rails'
+gem 'font-awesome-rails'
+gem "compass-rails", github: "Compass/compass-rails", branch: "master"
+
+gem 'modernizr-rails'
+
+gem 'gon'
+gem 'toastr-rails'
+
+gem 'execjs'
+gem 'therubyracer'
