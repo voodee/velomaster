@@ -42,6 +42,27 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+end
+
+group :development do
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-rvm'
+  gem 'capistrano3-ubuntu-server-prepare', github: 'goooseman/capistrano3-ubuntu-server-prepare', branch: 'master'
+  gem 'capistrano3-delayed-job'
+  gem 'capistrano3-git-push'
+
+  gem 'capistrano-rails-console'
+end
+
+group :production do
+  gem 'pg'
+  gem 'unicorn'
+  gem 'rails_12factor'
+  gem 'yaml_db'
 end
 
 
@@ -91,7 +112,6 @@ gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap', branch: '3-0-stable'
 
 
 gem 'stylus'
-gem 'stylus-nib', github: 'railsjedi/ruby-stylus-nib'
 gem 'haml-rails'
 gem 'normalize-rails'
 gem 'font-awesome-rails'

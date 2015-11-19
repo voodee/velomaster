@@ -1,0 +1,71 @@
+.header
+  &--logo
+    img
+      max-width 100%
+
+  &--logo
+  &--search
+  &--cart
+    height 12rem
+    display flex
+    flex-direction column
+    justify-content center
+
+  &-cart
+    &--link
+      background image-url('icon-header-cart.png') 50% 50% no-repeat !important
+      background-size 39px 34px !important
+
+      width 44px
+      height 44px
+      position relative
+      float left
+
+    &--num
+      position absolute
+      display block
+      border-radius 50%
+      background-color #f8a428
+      text-shadow none
+      z-index 2
+      height 22px
+      width 22px
+      top -7px
+      right -10px
+      line-height 22px
+      text-align center
+      font-size 12px
+      font-weight bold
+      color white
+
+    &--desc
+      position absolute
+      top 12px
+      margin-left 0
+      font-size 14px
+      font-weight bold
+      color #3f454b
+      left 58px
+      white-space nowrap
+
+
+
+.top
+  padding 7px
+  background #363636
+
+  &-links
+    li
+      padding 0
+      float left
+
+      &:last-child
+        a
+          padding 2px 0 1px 0
+          border 0
+
+    a
+      color #adadad
+      padding 1px 16px 1px 0
+      margin 0 13px 0 0
+      border-right 1px solid #555

@@ -1,0 +1,22 @@
+- @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Spree::Taxon.roots
+
+= form_tag spree.products_path, :method => :get, class: "form-search" do
+
+  .input-group
+    .input-group-btn
+      = hidden_field_tag :taxon, @taxon ? @taxon.id : params[:taxon]
+      %button.btn.btn-default.dropdown-toggle{"aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown", :type => "button"}
+        = Spree.t(:all_departments)
+        %span.caret
+      %ul.dropdown-menu
+        - cache(cache_key_for_taxons + '_list') do
+          %li
+            = link_to Spree.t(:all_departments), '#', :data => { 'taxon' => '' }
+          - @taxons.each do |taxon|
+            %li= link_to taxon.name, '#', :data => { 'taxon' => taxon.id }
+
+
+    = search_field_tag :keywords, params[:keywords], :placeholder => Spree.t(:search), class: "form-control"
+
+    .input-group-btn
+      = submit_tag Spree.t(:search), :name => nil, class: "btn btn-success"
