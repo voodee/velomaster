@@ -1,4 +1,5 @@
-
+@import "compass";
+@import "../../global/var";
 // mixin
 @mixin button-line-variant($color, $background, $border) {
     color: $text-color;
@@ -26,9 +27,9 @@
     line-height: $size;    
 }
 
-.btn-dark {
-    @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
-}
+//.btn-dark {
+//    @include button-variant($btn-dark-color, $btn-dark-bg, $btn-dark-border);
+//}
 
 .btn-line-default {
     @include button-line-variant($btn-default-color, $btn-default-bg, $btn-default-border);
