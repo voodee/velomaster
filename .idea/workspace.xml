@@ -87,8 +87,8 @@
       <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27180067" vertical-offset="0" max-vertical-offset="883">
-              <caret line="16" column="147" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="147" />
+            <state vertical-scroll-proportion="0.37372592" vertical-offset="0" max-vertical-offset="883">
+              <caret line="22" column="144" selection-start-line="22" selection-start-column="144" selection-end-line="22" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -1267,8 +1267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27180067" vertical-offset="0" max-vertical-offset="883">
-          <caret line="16" column="147" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="147" />
+        <state vertical-scroll-proportion="0.37372592" vertical-offset="0" max-vertical-offset="883">
+          <caret line="22" column="144" selection-start-line="22" selection-start-column="144" selection-end-line="22" selection-end-column="144" />
           <folding />
         </state>
       </provider>
