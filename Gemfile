@@ -78,6 +78,7 @@ gem 'spree_reviews', github: 'spree-contrib/spree_reviews', branch: '3-0-stable'
 
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
 gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', branch: '3-0-stable'
+gem 'spree_wombat', github: 'spree/spree_wombat', branch: '3-0-stable'
 gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-0-stable'
 
 gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist', branch: '3-0-stable'
